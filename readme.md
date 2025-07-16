@@ -1,6 +1,39 @@
-# INCOGNITRAIN
+# INCOGNITRAIN 
 
-This is an AI Model training platform which leverages Zero Knowledge Proofs to train the modelon sensitive data like the datasets within the sectors like healthcare, millitary etc.
+## 🔒 Privacy-Preserving AI Training Using Zero-Knowledge Proofs (ZKPs)
 
-There would also be a CLI through which tech savy people would be able to look out for insights.
+This project enables training AI models on **private datasets** (e.g., hospital or financial data) without revealing the raw data. It uses **zk-SNARKs** to prove that the model was trained correctly — keeping sensitive data safe.
 
+---
+
+## 🚀 Features
+
+- Train models on private data without exposing it
+- Generate zk-SNARK proofs of training correctness
+- Verify model integrity using lightweight cryptographic proofs
+
+---
+
+## 🛠️ Tech Stack
+
+-  `snarkjs` for Zero-Knowledge Circuits
+- `PyTorch`  for ML training
+- `Node.js` for CLI tools
+- `ONNX` for model export and compatibility
+
+---
+
+## 📁 Structure
+
+| Folder        | Description                            |
+|---------------|----------------------------------------|
+| `/zkp`        | Circuits and ZKP proof scripts         |
+| `/ai-model`   | ML training code and model artifacts   |
+| `/cli`        | Node.js CLI for user interaction       |
+| `/scripts`    | Misc scripts like verification         |
+
+---
+
+## ✨ Author
+
+Shivangi Sharma 
